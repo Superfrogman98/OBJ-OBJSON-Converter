@@ -19,6 +19,6 @@ Geometry:<br>
 by seperating faces into multiple objects in blender, and naming them, they can be used to allow cladding/different textures
 from the given block(though most don't seem to be implemented in a functional manner)<br>
   >the faceID should start at 0 and increase by 1 for each group<br>
-  >the name of the object should be formatted like <identifier>_face<faceID>-texture:<0/1 for no cladding, 2+ for cladding> 
+  >the name of the object should be formatted like <identifier>_face\<faceID\>-texture:\<0/1 for no cladding, 2+ for cladding\> 
   
 when importing to blenderselect Split by Group
