@@ -1,6 +1,8 @@
 # OBJ-OBJSON-Converter
 Python script to convert between OBJ and OBJSON(Smeg) model files for ArchitectureCraft
 
+Before Exporting make sure to triangulate faces and recalculate normals
+
 -Bounds can be set up in the OBJ by adding comments like<br>
 >\# bounds [x1, y1, z1, x2, y2, z2]<br>
 >\# boxes [[x1, y1, z1, x2, y2, z2],[x3, y3, z3, x4, y4, z4]]<br>
